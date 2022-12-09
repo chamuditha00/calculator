@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Calculator">
+  <grid id="27dc6" binding="calculator" layout-manager="GridLayoutManager" row-count="6" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="5" left="5" bottom="5" right="5"/>
+    <constraints>
+      <xy x="29" y="20" width="500" height="1000"/>
+    </constraints>
+    <properties>
+      <background color="-12905195"/>
+      <foreground color="-1"/>
+      <minimumSize width="300" height="500"/>
+      <preferredSize width="300" height="500"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="efa68" class="javax.swing.JTextField" binding="display">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="295" height="50"/>
+            <preferred-size width="295" height="50"/>
+            <maximum-size width="295" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="16" style="1"/>
+          <horizontalAlignment value="4"/>
+        </properties>
+      </component>
+      <component id="4d05e" class="javax.swing.JButton" binding="button11" default-binding="true">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-8182485"/>
+          <enabled value="true"/>
+          <font name="Lucida Sans Typewriter" size="24" style="1"/>
+          <foreground color="-983809"/>
+          <text value="×"/>
+        </properties>
+      </component>
+      <component id="94b37" class="javax.swing.JButton" binding="button2" default-binding="true">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-8182485"/>
+          <enabled value="true"/>
+          <font name="Lucida Sans Typewriter" size="24" style="1"/>
+          <foreground color="-983809"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="7f720" class="javax.swing.JButton" binding="button4" default-binding="true">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-8182485"/>
+          <enabled value="true"/>
+          <font name="Lucida Sans Typewriter" size="24" style="1"/>
+          <foreground color="-983809"/>
+          <text value="÷"/>
+        </properties>
+      </component>
+      <component id="37d02" class="javax.swing.JButton" binding="ACButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8182485"/>
+          <enabled value="true"/>
+          <font name="Lucida Sans Typewriter" size="24" style="1"/>
+          <foreground color="-983809"/>
+          <text value="AC"/>
+        </properties>
+      </component>
+      <component id="6683a" class="javax.swing.JButton" binding="DELButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8182485"/>
+          <enabled value="true"/>
+          <font name="Lucida Sans Typewriter" size="24" style="1"/>
+          <foreground color="-983809"/>
+          <text value="DEL"/>
+        </properties>
+      </component>
+      <component id="5cf6d" class="javax.swing.JButton" binding="a9Button1" default-binding="true">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-8182485"/>
+          <enabled value="true"/>
+          <font name="Lucida Sans Typewriter" size="24" style="1"/>
+          <foreground color="-983809"/>
+          <text value="9"/>
+        </properties>
+      </component>
+      <component id="dd615" class="javax.swing.JButton" binding="a8Button1" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-8182485"/>
+          <enabled value="true"/>
+          <font name="Lucida Sans Typewriter" size="24" style="1"/>
+          <foreground color="-983809"/>
+          <text value="8"/>
+        </properties>
+      </component>
+      <component id="2baaa" class="javax.swing.JButton" binding="a7Button1" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-8182485"/>
+          <enabled value="true"/>
+          <font name="Lucida Sans Typewriter" size="24" style="1"/>
+          <foreground color="-983809"/>
+          <text value="7"/>
+        </properties>
+      </component>
+      <component id="9a3b2" class="javax.swing.JButton" binding="a4Button1" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-8182485"/>
+          <enabled value="true"/>
+          <font name="Lucida Sans Typewriter" size="24" style="1"/>
+          <foreground color="-983809"/>
+          <text value="4"/>
+        </properties>
+      </component>
+      <component id="e53ea" class="javax.swing.JButton" binding="a5Button1" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-8182485"/>
+          <enabled value="true"/>
+          <font name="Lucida Sans Typewriter" size="24" style="1"/>
+          <foreground color="-983809"/>
+          <text value="5"/>
+        </properties>
+      </component>
+      <component id="cd53d" class="javax.swing.JButton" binding="a6Button1" default-binding="true">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-8182485"/>
+          <enabled value="true"/>
+          <font name="Lucida Sans Typewriter" size="24" style="1"/>
+          <foreground color="-983809"/>
+          <text value="6"/>
+        </properties>
+      </component>
+      <component id="e6a19" class="javax.swing.JButton" binding="a1Button1" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-8182485"/>
+          <enabled value="true"/>
+          <font name="Lucida Sans Typewriter" size="24" style="1"/>
+          <foreground color="-983809"/>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="a795a" class="javax.swing.JButton" binding="a2Button1" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-8182485"/>
+          <enabled value="true"/>
+          <font name="Lucida Sans Typewriter" size="24" style="1"/>
+          <foreground color="-983809"/>
+          <text value="2"/>
+        </properties>
+      </component>
+      <component id="95ea4" class="javax.swing.JButton" binding="a3Button1" default-binding="true">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-8182485"/>
+          <enabled value="true"/>
+          <font name="Lucida Sans Typewriter" size="24" style="1"/>
+          <foreground color="-983809"/>
+          <text value="3"/>
+        </properties>
+      </component>
+      <component id="39db5" class="javax.swing.JButton" binding="a0Button" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-8182485"/>
+          <enabled value="true"/>
+          <font name="Lucida Sans Typewriter" size="24" style="1"/>
+          <foreground color="-983809"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="755f3" class="javax.swing.JButton" binding="a2Button" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-8182485"/>
+          <enabled value="true"/>
+          <font name="Lucida Sans Typewriter" size="24" style="1"/>
+          <foreground color="-983809"/>
+          <text value="."/>
+        </properties>
+      </component>
+      <component id="48ada" class="javax.swing.JButton" binding="button1" default-binding="true">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-8182485"/>
+          <enabled value="true"/>
+          <font name="Lucida Sans Typewriter" size="24" style="1"/>
+          <foreground color="-983809"/>
+          <text value="="/>
+        </properties>
+      </component>
+      <component id="ed6a1" class="javax.swing.JButton" binding="button3" default-binding="true">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-8182485"/>
+          <enabled value="true"/>
+          <font name="Lucida Sans Typewriter" size="24" style="1"/>
+          <foreground color="-983809"/>
+          <text value="+"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
